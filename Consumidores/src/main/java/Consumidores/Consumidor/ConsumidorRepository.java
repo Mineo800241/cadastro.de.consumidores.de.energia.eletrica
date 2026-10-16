@@ -1,4 +1,4 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor;
+package Consumidores.Consumidor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

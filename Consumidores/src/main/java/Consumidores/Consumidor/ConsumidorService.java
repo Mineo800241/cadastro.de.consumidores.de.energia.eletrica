@@ -1,8 +1,7 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor;
+package Consumidores.Consumidor;
 
-import com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor.dto.ConsumidorResponse;
+import Consumidores.Consumidor.dto.ConsumidorResponse;
 import jakarta.transaction.Transactional;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;

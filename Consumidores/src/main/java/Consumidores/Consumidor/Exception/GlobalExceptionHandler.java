@@ -1,6 +1,6 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor.Exception;
+package Consumidores.Consumidor.Exception;
 
-import com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor.ConsumidorNaoEncontradoException;
+import Consumidores.Consumidor.ConsumidorNaoEncontradoException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

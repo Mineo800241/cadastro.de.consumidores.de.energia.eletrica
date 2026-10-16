@@ -1,4 +1,4 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor;
+package Consumidores.Consumidor;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

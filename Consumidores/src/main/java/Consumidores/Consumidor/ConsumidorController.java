@@ -1,6 +1,6 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor;
+package Consumidores.Consumidor;
 
-import com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor.dto.ConsumidorResponse;
+import Consumidores.Consumidor.dto.ConsumidorResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

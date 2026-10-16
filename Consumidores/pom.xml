@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.maxwell</groupId>
-	<artifactId>cadastro.de.consumidores.de.energia.eletrica</artifactId>
+	<artifactId>Dados</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>

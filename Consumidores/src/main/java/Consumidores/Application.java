@@ -1,6 +1,5 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica;
+package Consumidores;
 
-import com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor.Consumidor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

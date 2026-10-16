@@ -1,4 +1,4 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica;
+package Consumidores;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

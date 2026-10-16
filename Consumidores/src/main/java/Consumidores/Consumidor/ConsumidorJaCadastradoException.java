@@ -1,4 +1,4 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor;
+package Consumidores.Consumidor;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

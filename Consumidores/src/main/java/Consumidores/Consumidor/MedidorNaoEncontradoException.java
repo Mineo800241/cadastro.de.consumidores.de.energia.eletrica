@@ -1,4 +1,4 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor;
+package Consumidores.Consumidor;
 
 public class MedidorNaoEncontradoException extends RuntimeException {
     private static final long serialVersionUID = 1L;

@@ -1,4 +1,4 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor.Exception;
+package Consumidores.Consumidor.Exception;
 import java.time.LocalDateTime;
 
 public class ErroResponse {

@@ -1,4 +1,4 @@
-package com.maxwell.cadastro.de.consumidores.de.energia.eletrica.Consumidor.dto;
+package Consumidores.Consumidor.dto;
 
 public record ConsumidorResponse(
         Long uc,

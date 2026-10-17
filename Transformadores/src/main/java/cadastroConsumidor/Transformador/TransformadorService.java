@@ -1,4 +1,6 @@
 package cadastroConsumidor.Transformador;
+import cadastroConsumidor.Messaging.CadastroMessage;
+import cadastroConsumidor.Messaging.CadastroProducer;
 import cadastroConsumidor.Transformador.Exception.TransformadorNaoEncontradoException;
 import cadastroConsumidor.Transformador.dto.TransformadorResponse;
 import cadastroConsumidor.Consumidor.client.ConsumidorGateway;
@@ -12,10 +14,12 @@ public class TransformadorService {
 
     private final TransformadorRepository transformadorRepository;
     private final ConsumidorGateway consumidorGateway;
+    private final CadastroProducer cadastroProducer;
 
-    public TransformadorService(TransformadorRepository transformadorRepository, ConsumidorGateway consumidorGateway) {
+    public TransformadorService(TransformadorRepository transformadorRepository, ConsumidorGateway consumidorGateway, CadastroProducer cadastroProducer) {
         this.transformadorRepository = transformadorRepository;
         this.consumidorGateway = consumidorGateway;
+        this.cadastroProducer = cadastroProducer;
     }
 
     public TransformadorResponse obterDetalhes(Long trafo){
@@ -38,6 +42,12 @@ public class TransformadorService {
              transformador.adicionarConsumidor(consumidor.uc());
 
         Transformador transformadorAtualizado = transformadorRepository.save(transformador);
+
+//        String mensagem = "{\"transformadorID\":%d, \"consumidorID\":%d}".formatted(transformadorID,consumidorID);
+
+        CadastroMessage mensagem = new CadastroMessage(transformadorAtualizado.getId(), consumidor.uc() );
+
+        cadastroProducer.enviar(mensagem);
 
         return converterParaResponse(transformadorAtualizado);
     }

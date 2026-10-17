@@ -1,0 +1,20 @@
+uc; nome; endereco; email; medidor; transformador; chave; alimentador; situacao
+1; Ana Clara Silva;	Rua das Palmeiras, 123. Bairro: Montes Verdes. Londrina; Anaclara@bol.com; 123456; L0023; 370; Selva; true
+2; Bruno Henrique Oliveira; Avenida Brasil, 456. Bairro: Centro. Londrina; bruno.oliveira@bol.com; 123457; L0023; 370; Selva; true
+3; Camila Rossi Santos; Rua Pará, 789. Bairro: Vila Ipiranga. Londrina; camila.rossi@bol.com; 123458; L0023; 370; Selva; false
+4; Diego Rodrigues Lima; Rua Sergipe, 101. Bairro: Centro. Londrina; diego.lima@bol.com; 123459; L0023; 370; Selva; true
+5; Elena Maria Vasconcelos; Avenida Higienópolis, 202. Bairro: Guanabara. Londrina; elena.vasconcelos@bol.com; 123460; L0023;370; Selva; false
+6; Felipe Augusto Souza; Rua Piauí, 303. Bairro: Centro. Londrina; felipe.souza@bol.com; 123461; L0023; 370; Selva; true
+7; Gabriel Mendes Castro; Avenida Bandeirantes, 404. Bairro: Vila Recreio. Londrina; gabriel.castro@bol.com; 123462; L0023; 370; Selva; true
+8; Heloísa Fernandes Rocha; Rua Belo Horizonte, 505. Bairro: Centro. Londrina; heloisa.rocha@bol.com; 123463; L0023; 370; Selva; false
+9; Igor Martins Pereira; Avenida Juscelino Kubitschek, 606. Bairro: Centro. Londrina; igor.pereira@bol.com; 123464; L0023; 370; Selva; true
+10; Juliana Barbosa Costa; Rua Goiás, 707. Bairro: Vila Nova. Londrina; juliana.costa@bol.com; 123465; L0023; 370; Selva; false
+11; Lucas Eduardo Ribeiro; Avenida Tiradentes, 808. Bairro: Jardim Maringá. Londrina; lucas.ribeiro@bol.com; 123466; L0024; 370; Selva; true
+12; Mariana Duarte de Carvalho; Rua Santos, 909. Bairro: Centro. Londrina; mariana.carvalho@bol.com; 123467; L0024; 380; Selva; true
+13; Nicolas Ferreira Ramos; Avenida Madre Leônia Milito, 1010. Bairro: Gleba Palhano. Londrina; nicolas.ramos@bol.com; 123468; L0035; 370; Selva; false
+14; Patricia Gomes Cardoso; Rua Mato Grosso, 1111. Bairro: Centro. Londrina; patricia.cardoso@bol.com; 123469; L0024; 370; Selva; true
+15; Rafael Augusto Nogueira; Avenida Ayrton Senna, 1212. Bairro: Gleba Palhano. Londrina; rafael.nogueira@bol.com; 123470; L0024; 370; Selva; true
+16; Sofia Beatriz Almeida; Rua Alagoas, 1313. Bairro: Centro. Londrina; sofia.almeida@bol.com; 123471; L0038; 370; Selva; false
+17; Thiago Vinícius Monteiro; Avenida Duque de Caxias, 1414. Bairro: Jardim Londres. Londrina; thiago.monteiro@bol.com; 123472; L0039; 370; Selva; true
+18; Vanessa Cristina Freitas; Rua Pernambuco, 1515. Bairro: Centro. Londrina; vanessa.freitas@bol.com; 123473; L0024; 370; Selva; false
+19; Willian Machado Moreira; Avenida Maringá, 1616. Bairro: Victoria Heights. Londrina; willian.moreira@bol.com; 123474; L0024; 370; Selva; true
